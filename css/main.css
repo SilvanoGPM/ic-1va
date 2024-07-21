@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list {
+  border: 1px solid var(--gray);
+  margin: 1rem;
+}
+
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.list_item:not(:last-child) {
+  border-bottom: 1px solid var(--gray);
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+.meeting_title {
+  text-align: center;
+}
+
+.meeting_title > p {
+  margin-top: 0.5rem;
+}
+
+.meeting_title_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+.meeting_title .meeting_title_date p {
+  font-size: 1.5rem;
+}
+
+.meeting_title .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFAD4E;
+  color: white;
+  width: 25px;
+  font-size: 0.8rem;
+  height: 25px;
+}

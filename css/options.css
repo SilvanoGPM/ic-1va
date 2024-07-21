@@ -1,0 +1,58 @@
+.options_wrapper {
+  display: flex;
+}
+
+.options_container {
+  display: flex;
+  gap: 2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--gray);
+}
+
+.options_group {
+  display: flex;
+  flex: 1;
+}
+
+.options_group .button {
+  flex: 1;
+  border-radius: 0;
+  border: none;
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 0;
+  color: white;
+  cursor: pointer;
+}
+
+.button.red {
+  background-color: #DB5450;
+}
+
+.button.orange {
+  background-color: #EFAD4E;
+}
+
+.button.blue {
+  background-color: #347AB8;
+}
+
+.button.green {
+  background-color: #5BB85D;
+}
+
+.button.cyan {
+  background-color: #5BBFE1;
+}
+
+.button.white {
+  background-color: white;
+  border: 1px solid var(--gray);
+  border-left: none;
+  color: black;
+}

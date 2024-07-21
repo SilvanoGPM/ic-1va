@@ -1,0 +1,13 @@
+.title_wrapper {
+  border-bottom: 1px solid #d4d3d3;
+  display: flex;
+  align-items: center;
+}
+
+.title_container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
