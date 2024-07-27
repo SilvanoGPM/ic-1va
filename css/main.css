@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-.meeting_title > p {
+.meeting_title>p {
   margin-top: 0.5rem;
 }
 
@@ -62,4 +62,10 @@
   width: 25px;
   font-size: 0.8rem;
   height: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    flex-direction: column;
+  }
 }
